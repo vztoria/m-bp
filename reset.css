@@ -1,0 +1,39 @@
+/* Reset básico de margens, padding e bordas */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Removendo estilos padrões de listas e links */
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Imagens e vídeos sem borda */
+img, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tabelas e fontes */
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
